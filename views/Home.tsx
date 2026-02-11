@@ -40,7 +40,7 @@ export const Home: React.FC = () => {
           Uncover the <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-400">Truth Within</span>.
         </h1>
         <p className="text-lg text-slate-400 font-medium leading-relaxed max-w-2xl mx-auto">
-          TestMania is the world's most advanced psychological diagnostic engine. Take a deep dive into your personality, logic, and beliefs.
+          Testhacolic is the world's most advanced psychological diagnostic engine. Take a deep dive into your personality, logic, and beliefs.
         </p>
         
         {/* Search Bar */}

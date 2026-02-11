@@ -19,10 +19,10 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
         <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
           <a href="#/" onClick={goHome} className="flex items-center space-x-3 group">
             <div className="w-10 h-10 bg-gradient-to-tr from-indigo-600 via-purple-600 to-pink-500 rounded-xl flex items-center justify-center shadow-lg shadow-indigo-500/20 group-hover:scale-110 transition-transform">
-              <span className="text-white font-black text-xl">TM</span>
+              <span className="text-white font-black text-xl">TH</span>
             </div>
             <span className="text-2xl font-black tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400 group-hover:to-indigo-400 transition-all">
-              TestMania
+              Testhacolic
             </span>
           </a>
           
@@ -48,7 +48,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
       <footer className="border-t border-white/5 py-12 bg-slate-950/50 relative z-10">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center space-x-2">
-            <span className="text-xl font-black tracking-tighter text-slate-400">TestMania</span>
+            <span className="text-xl font-black tracking-tighter text-slate-400">Testhacolic</span>
           </div>
           <p className="text-slate-600 text-xs font-mono uppercase tracking-widest">
             &copy; {new Date().getFullYear()} IDENTITY_LABS.v1

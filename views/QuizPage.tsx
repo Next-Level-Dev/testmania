@@ -133,7 +133,7 @@ export const QuizPage: React.FC<QuizPageProps> = ({ quizId }) => {
       const winner = quiz.categories.find(c => c.id === finalResult.categoryWinner);
       resultTitle = winner?.title || 'Unknown';
       resultMessage = winner?.description || '';
-      shareText = `I'm a "${resultTitle}" according to TestMania! Find your profile: ${window.location.href}`;
+      shareText = `I'm a "${resultTitle}" according to Testhacolic! Find your profile: ${window.location.href}`;
     }
 
     return (
